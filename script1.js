@@ -66,7 +66,7 @@ const questions = [
             "Momos",
             "Pasta"
         ],
-        correct: 3
+        correct: 2
     },
 
     {
@@ -77,7 +77,7 @@ const questions = [
             "You",
             "All of the above"
         ],
-        correct: 3
+        correct: 2
     },
 
     {
