@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>A Little Sunflower For You 🌻</title>
+
+    <link rel="stylesheet" href="style1.css">
+</head>
+
+<body>
+
+    <!-- ================= PASSWORD SCREEN ================= -->
+
+    <div id="passwordScreen" class="screen">
+
+        <div class="password-card">
+
+            <div class="sunflower">🌻</div>
+
+            <h1>Hey you...</h1>
+
+            <p>
+                This little corner of the internet is just for you.
+            </p>
+
+            <p class="small-text">
+                Enter the secret password 🌻
+            </p>
+
+            <input
+                type="password"
+                id="passwordInput"
+                placeholder="Secret password"
+            >
+
+            <button onclick="checkPassword()">
+                Enter 🌻
+            </button>
+
+            <p id="passwordError"></p>
+
+        </div>
+
+    </div>
+
+
+    <!-- ================= MAIN WEBSITE ================= -->
+
+    <div id="mainSite" class="hidden">
+
+        <nav>
+
+            <h2>🌻 For You</h2>
+
+            <div>
+                <a href="#home">Home</a>
+                <a href="#gallery">Gallery</a>
+                <a href="#secret">Secret</a>
+            </div>
+
+        </nav>
+
+
+        <!-- HOME -->
+
+        <section id="home" class="hero">
+
+            <div class="sunflower-decoration">🌻</div>
+
+            <h1>
+                You found your way in. 💛
+            </h1>
+
+            <p>
+                So... I made you a tiny little world.
+            </p>
+
+            <p class="subtext">
+                Take your time exploring it.
+            </p>
+
+            <button onclick="scrollToSection('gallery')">
+                Start exploring 🌻
+            </button>
+
+        </section>
+
+
+        <!-- GALLERY -->
+
+        <section id="gallery" class="section">
+
+            <h2>📸 Our Little Gallery</h2>
+
+            <p class="section-intro">
+                A few moments that deserve their own little corner.
+            </p>
+
+            <div class="gallery">
+
+                <div class="photo-card">
+                    <img src="Photo 1.jpeg">
+                    <p>My cuteeee spidermann 💛</p>
+                </div>
+
+                <div class="photo-card">
+                    <img src="Photo 2.jpg">
+                    <p>This one makes me smile 🌻</p>
+                </div>
+
+                <div class="photo-card">
+                    <img src="Photo 3.jpg">
+                    <p>A moment worth keeping.</p>
+                </div>
+
+
+            </div>
+
+        </section>
+
+
+        <!-- SECRET QUIZ -->
+
+        <section id="secret" class="section secret-section">
+
+            <div class="secret-card">
+
+                <div class="lock" id="lock">
+                    🔒
+                </div>
+
+                <h2>
+                    There's Something Hidden Here...
+                </h2>
+
+                <p>
+                    But you'll have to prove you know me first. 👀
+                </p>
+
+                <button onclick="startQuiz()">
+                    Unlock the secret 💌
+                </button>
+
+            </div>
+
+
+            <!-- QUIZ -->
+
+            <div id="quiz" class="quiz hidden">
+
+                <h2 id="questionNumber">
+                    Question 1
+                </h2>
+
+                <p id="questionText"></p>
+
+                <div id="answers"></div>
+
+                <p id="quizResult"></p>
+
+            </div>
+
+
+            <!-- SECRET MESSAGE -->
+
+            <div id="secretMessage" class="secret-message hidden">
+
+                <div class="sunflower-big">
+                    🌻
+                </div>
+
+                <h1>You unlocked it. 💛</h1>
+
+                <p>
+                    Heyy babyyy,
+                </p>
+
+                <p>
+                    I don't even know where to begin...
+                </p>
+
+                <p>
+                    You have become such a special part of my life, you're my best friend,
+                    one of my biggest supporters, my baby, my love, my hubby, the one person I choose to spend my life with
+                    and I'm really grateful for every laugh,
+                    every conversation, every silly moment,
+                    and every memory we've made.
+                </p>
+
+                <p>
+                    If life were a garden, I'd want you to know...
+                    that you're one of the brightest flowers in mine and you'd be the sunflower I'd always and forever turn towards to
+                    🌻
+                </p>
+
+                <p>
+                    Thank you for being for me and for being you.
+                </p>
+
+                <p class="signature">
+                    — Love, Your cuteee mama 💛
+                </p>
+
+            </div>
+
+        </section>
+
+
+        <footer>
+            Made with sunshine & lotss of love 🌻
+        </footer>
+
+    </div>
+
+
+    <script src="script1.js"></script>
+
+</body>
+</html>
