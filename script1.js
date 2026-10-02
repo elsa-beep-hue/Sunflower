@@ -62,22 +62,22 @@ const questions = [
         question: "What food would I probably choose first?",
         answers: [
             "Pizza",
-            "Burger",
+            "Bingo chips",
             "Momos",
             "Pasta"
         ],
-        correct: 2
+        correct: 1
     },
 
     {
-        question: "What is something that always makes me happy?",
+        question: "Which out of these would I choose for a date with you?",
         answers: [
-            "Music",
-            "Bingo chips",
-            "You",
-            "All of the above"
+            "ice cream date",
+            "Movie date",
+            "Lunch with you",
+            "Walk around and explore"
         ],
-        correct: 2
+        correct: 3
     },
 
     {
@@ -86,9 +86,9 @@ const questions = [
             "A quiet day at home",
             "Going somewhere together",
             "Sleeping all day",
-            "Studying 😭"
+            "Watch movies all day"
         ],
-        correct: 2
+        correct: 1
     }
 
 ];
@@ -192,7 +192,7 @@ function checkAnswer(selected) {
     } else {
 
         result.textContent =
-            "Nope 😭 Think harder... you know me!";
+            "Nope 😭 Think harder baby";
 
         result.style.color =
             "#c0392b";
